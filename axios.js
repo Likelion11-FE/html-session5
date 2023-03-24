@@ -19,7 +19,7 @@ const sendData = () => {
         .then(response =>{
             console.log(response);
         })
-        // 일어나는 모든 오류 포착
+        // 일어나는 모든 오류 포착.
         // err.response : 어떤 오류인지 알 수 있음.
         .catch(err =>{
             console.log(err, err.response);
